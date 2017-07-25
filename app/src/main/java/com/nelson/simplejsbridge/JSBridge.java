@@ -51,6 +51,7 @@ public class JSBridge {
 
 
     public static String callJava(WebView webView, String uriString) {
+        // Protocol: JSBridge://bridge:240567437/showToast?{"msg":"Hello JSBridge"}
         String methodName = "";
         String className = "";
         String param = "{}";
